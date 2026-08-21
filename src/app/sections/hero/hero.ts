@@ -58,8 +58,8 @@ export class Hero {
   private readonly cta = viewChild<HTMLAnchorElement>('cta');
 
   protected readonly stats: HeroStat[] = [
-    { value: '3+', label: 'Years Experience', icon: 'people' },
-    { value: '25+', label: 'Projects Delivered', icon: 'shield' },
+    { value: '8+', label: 'Years Experience', icon: 'people' },
+    { value: '50+', label: 'Projects Delivered', icon: 'shield' },
     { value: '100%', label: 'Client Satisfaction', icon: 'rocket' },
   ];
 

@@ -21,7 +21,8 @@ export class Footer {
       links: [
         { label: 'About Us', href: '#about' },
         { label: 'Meet the Team', href: '#team' },
-        { label: 'Career', href: '#career' },
+        { label: 'Careers', href: '#career' },
+        { label: 'Success Stories', href: '#success-stories' },
         { label: 'Why Us', href: '#why-us' },
       ],
     },
