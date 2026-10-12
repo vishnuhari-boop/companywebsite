@@ -28,11 +28,11 @@ export class Navbar {
       label: 'About Us',
       children: [
         { label: 'About Us', fragment: 'about' },
-        { label: 'Meet the Team', fragment: 'team' },
-        { label: 'Career', fragment: 'career' },
+        { label: 'Careers', fragment: 'career' },
       ],
     },
     { label: 'Work', fragment: 'technologies' },
+    { label: 'Success Stories', fragment: 'success-stories' },
     { label: 'Contact', fragment: 'contact' },
   ];
 

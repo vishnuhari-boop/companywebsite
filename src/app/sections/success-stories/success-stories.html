@@ -1,0 +1,23 @@
+<section id="success-stories" class="section stories">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Success Stories</span>
+      <h2>Outcomes we have helped teams ship</h2>
+      <p>
+        A look at how Arcbyte partners with businesses to design, build and scale software
+        that holds up in production.
+      </p>
+    </div>
+
+    <div class="stories__grid">
+      @for (story of stories; track story.title) {
+        <article class="story-card">
+          <span>{{ story.sector }}</span>
+          <h3>{{ story.title }}</h3>
+          <strong>{{ story.result }}</strong>
+          <p>{{ story.description }}</p>
+        </article>
+      }
+    </div>
+  </div>
+</section>
