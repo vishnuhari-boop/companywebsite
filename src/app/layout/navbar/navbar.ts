@@ -28,7 +28,6 @@ export class Navbar {
       label: 'About Us',
       children: [
         { label: 'About Us', fragment: 'about' },
-        { label: 'Meet the Team', fragment: 'team' },
         { label: 'Careers', fragment: 'career' },
       ],
     },
